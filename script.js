@@ -6,7 +6,7 @@ function showContent(option) {
     switch (option) {
         case 'jogar':
             html = `
-                <h1>Nome do Jogo</h1>
+                <img src="logo.png" class="game-logo2" alt="Nome do Jogo">
                 <h2 class="blinking-text">Pressione "Espaço" para começar!</h2>
             `;
             gradient = 'linear-gradient(to right, #0f0f0f, #005f73)';
@@ -25,19 +25,6 @@ function showContent(option) {
             `;
             gradient = 'linear-gradient(to right, #0f0f0f, #005f73)';
             break;
-        case 'equipe':
-            html = `
-                <h2>Equipe</h2>
-                <div class='cards'>
-                    <div class='card'><h3>Marcos Vinicio</h3><p>Software Developer</p></div>
-                    <div class='card'><h3>Jao</h3><p>Software Developer</p></div>
-                    <div class='card'><h3>Erik</h3><p>Audio e Art</p></div>
-                    <div class='card'><h3>Onivaldo Pereira</h3><p>Game Design</p></div>
-                    <div class='card'><h3>Beatriz</h3><p>Design & Arts</p></div>
-                </div>
-            `;
-            gradient = 'linear-gradient(to right, #0f0f0f, #005f73)';
-            break;
         case 'creditos':
             html = `
                 <h2>Creditos</h2>
@@ -47,9 +34,6 @@ function showContent(option) {
                     </div>
 
                     <div class="dicas">  <p1>Marcos Vinicio - Programação</p>
-                    </div>
-
-                    <div class="dicas"> <p>Onivaldo - Game Design</p>
                     </div>
 
                     <div class="dicas"> <p>Jão - Programação</p>
