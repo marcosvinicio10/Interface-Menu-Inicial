@@ -38,21 +38,24 @@ function showContent(option) {
             `;
             gradient = 'linear-gradient(to right, #0f0f0f, #005f73)';
             break;
-        case 'como_jogar':
+        case 'creditos':
             html = `
-                <h2>Dicas</h2>
+                <h2>Creditos</h2>
               
                     <ul>
-                    <div class="dicas">  <p1>Use <b>WASD</b> para se movimentar</li>
+                    <div class="dicas">  <p>Beatriz - Design & Art</p>
                     </div>
 
-                    <div class="dicas">  <p1>Pressione <b>espaço</b> para pular</li>
+                    <div class="dicas">  <p1>Marcos Vinicio - Programação</p>
                     </div>
 
-                    <div class="dicas"> <p1>Aperte <b>Shift</b> para correr</li>
+                    <div class="dicas"> <p>Onivaldo - Game Design</p>
                     </div>
 
-                    <div class="dicas"> <p1>Evite inimigos escondidos na escuridão</li>
+                    <div class="dicas"> <p>Jão - Programação</p>
+                    </div>
+
+                    <div class="dicas"> <p>Erike - Som & Art</p>
                     </div>
                     </ul>
               
