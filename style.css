@@ -92,7 +92,7 @@ body {
 }
 
 .dicas, .config{
-    margin-bottom: 2%;
+    margin-bottom: 1%;
 }
 
 .cards {
@@ -154,4 +154,18 @@ h1 {
     background: linear-gradient(to right, #ffcc00, #ff3300);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.game-logo {
+    filter: invert(1);
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.game-logo2 {
+    filter: invert(1);
+    width: 600px;
+    height: auto;
+    margin-bottom: 20px;
 }
